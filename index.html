@@ -743,7 +743,6 @@
           <li><i class="fas fa-map-marker-alt" aria-hidden="true"></i> Amsterdam & omstreken</li>
           <li><i class="fas fa-phone" aria-hidden="true"></i> <a href="tel:+31647954997">+31 6 47954997</a></li>
           <li><i class="fab fa-whatsapp" aria-hidden="true"></i> <a href="https://wa.me/31647954997" target="_blank">WhatsApp</a></li>
-          <li><i class="fas fa-envelope" aria-hidden="true"></i> <a href="mailto:info@fastgas247.nl">info@fastgas247.nl</a></li>
         </ul>
       </div>
       
@@ -794,7 +793,7 @@
           const refreshIndicator = document.getElementById('refreshIndicator');
           refreshIndicator.classList.add('active');
           setTimeout(() => { window.location.reload(); }, 300);
-        }, 1000);
+        }, 100);
       } else {
         setTimeout(() => { sessionStorage.removeItem('pageRefreshed'); }, 1000);
       }
